@@ -3,16 +3,16 @@ import proPic from '../assets/propic.jpg'
 
 export default function About() {
     return( 
-        <div>
-        <section className="proheader">
-            <h1>About</h1>
+        <div className="columns">
+        <section className="proheader column image-cropper">
+            <h1 className="title">About</h1>
             <img className="propic" src={proPic} alt="A photo of me!"></img>
         </section>
-        <section className="desc">
-            <p>
-                Hey, I'm Aubrey McKinney, welcome to my little slice of the internet! I'm a fullstack developer located in Philadelphia, PA. I love creating new things and bringing visions to life! Stick around and stay a while!
+        <section className="desc column">
+            <p className="mb-5">
+                Hey! I'm Aubrey McKinney, welcome to my little slice of the internet! I'm a fullstack developer located in Philadelphia, PA. I love creating new things and bringing visions to life! Stick around and stay a while!
             </p>
-            <p>
+            <p className="mb-5">
                 My life has been a journey, I grew up in boarding school on a farm in Lake Placid, NY. Where I fell in love with snowboarding, and being outdoors. Then I got a BA in Musical Theatre from Temple University and performed around the east coast. Following Covid I moved from the arts and fell in love with programming. Being able to design websites and make the user experience seemless is a huge passion point of mine. 
             </p>
             <p>
