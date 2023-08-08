@@ -3,6 +3,7 @@ import Lordpic from '../assets/lordofthepies.JPG'
 import ewtPic from '../assets/ENDWORLDTHIRST.png'
 import weaPic from '../assets/WeatherDash.JPG'
 import jatePic from '../assets/JATEphoto.JPG'
+import Card from './card'
 export default function projectList(){
     const projs = [
         //use this template for the selected projects. Put them in cards?
@@ -32,22 +33,20 @@ export default function projectList(){
             desc: "An AWE text editor, a downloadable app that allows one to take notes, and save them on loss of focus or refresh",
             gitLink: "https://github.com/Shadowasders/Text-editor",
             //Heroku down, when it works get the webLink
-            webLink: "",
+            webLink: "https://floating-refuge-33497-e25e38aa42a3.herokuapp.com/",
             screenShot: jatePic,
         }
     ]
 //figure out how to use map to create projects? Or use a for loop to create cards for each project? 
-// for (let i=0; i < projs.length; i++) {
-// use a card, icons as anchors for get and web links, and screenShot for background?   
-//} 
+
     return (
         <section>
             <h2>Selected Projects</h2>
-            <ul>
+            <div>
                 {
-                    projectList.map((projects, i))
+                    projs.map((project  => <Card name = {project.name} desc = {project.desc} gitLink = {project.gitLink} webLink = {project.webLink} screenShot = {project.screenShot}/> ))
                 }
-            </ul>
+            </div>
         </section>
     )
 

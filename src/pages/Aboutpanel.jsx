@@ -1,15 +1,20 @@
 import React from "react";
 import proPic from '../assets/propic.jpg'
 
-export default function About() {
-    return( 
-        <div className="columns">
-        <section className="proheader column image-cropper">
-            <h1 className="title">About</h1>
+export default function AboutPanel({ scrollDistance, color = "grey", onScroll }) {
+return (
+    <article
+      className={`panel ${color}`}
+      style={{ transform: `translate(${scrollDistance}%)` }}
+      onWheel={onScroll}
+    >
+         <div className="columns">
+        <section className="proheader column">
+            <h1 className="title has-text-white">About</h1>
             <img className="propic" src={proPic} alt="A photo of me!"></img>
         </section>
-        <section className="desc column">
-            <p className="mb-5">
+        <section className="desc column has-text-white">
+            <p className="m-5">
                 Hey! I'm Aubrey McKinney, welcome to my little slice of the internet! I'm a fullstack developer located in Philadelphia, PA. I love creating new things and bringing visions to life! Stick around and stay a while!
             </p>
             <p className="mb-5">
@@ -20,5 +25,11 @@ export default function About() {
             </p>
         </section>
         </div>
-    )
+    </article>
+  );
 }
+
+
+
+
+
