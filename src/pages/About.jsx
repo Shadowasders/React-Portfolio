@@ -1,5 +1,4 @@
 import React from "react";
-//import profile picture here
 import proPic from '../assets/propic.jpg'
 
 export default function About() {
