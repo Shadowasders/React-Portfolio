@@ -1,5 +1,5 @@
 import React from "react";
-import proPic from '../assets/propic.jpg'
+import proPic from '../assets/propic.png'
 
 export default function AboutPanel({ scrollDistance, color = "grey", onScroll }) {
 return (

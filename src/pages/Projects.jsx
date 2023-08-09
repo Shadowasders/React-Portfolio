@@ -1,5 +1,5 @@
 import React from "react";
-import projectList from "../components/ProjectList";
+import projectList from "../components/ProjectListPanel";
 
 export default function Projects(){ 
 return (

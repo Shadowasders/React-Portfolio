@@ -7,6 +7,7 @@ import 'bulma/css/bulma.min.css'
 import { useState } from "react";
 import Panel from "./pages/Aboutpanel";
 import "./styles/panelstyles.css";
+import ProjectList from './components/ProjectListPanel';
 
   export default function App() {
     const [scrollDistance, setScrollDistance] = useState(0);
@@ -19,13 +20,13 @@ import "./styles/panelstyles.css";
     return (
       <main>
         <section id="panels">
-          <div id="panels-container" style={{ width: "300%" }}>
+          <div id="panels-container" style={{ width: "400%" }}>
             <Panel
               color="red"
               onScroll={handleScroll}
               scrollDistance={scrollDistance}
             />
-            <Panel
+            <ProjectList
               color="orange"
               onScroll={handleScroll}
               scrollDistance={scrollDistance}
