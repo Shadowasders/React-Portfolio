@@ -1,20 +1,16 @@
 import React from "react";
 import proPic from '../assets/propic.png'
 
-export default function AboutPanel({ scrollDistance, color = "grey", onScroll }) {
+export default function AboutPanel() {
 return (
-    <article
-      className={`panel ${color}`}
-      style={{ transform: `translate(${scrollDistance}%)` }}
-      onWheel={onScroll}
-    >
+    <article>
          <div className="columns">
-        <section className="proheader column">
+        <section className="proheader column has-text-centered">
             <h1 className="title has-text-white">About</h1>
             <img className="propic" src={proPic} alt="A photo of me!"></img>
         </section>
         <section className="desc column has-text-white">
-            <p className="m-5">
+            <p className="mb-5">
                 Hey! I'm Aubrey McKinney, welcome to my little slice of the internet! I'm a fullstack developer located in Philadelphia, PA. I love creating new things and bringing visions to life! Stick around and stay a while!
             </p>
             <p className="mb-5">

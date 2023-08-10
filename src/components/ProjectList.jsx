@@ -39,13 +39,9 @@ export default function projectList(){
 //figure out how to use map to create projects? Or use a for loop to create cards for each project? 
 
     return (
-        <article
-        className={`panel ${color}`}
-        style={{ transform: `translate(${scrollDistance}%)` }}
-        onWheel={onScroll}
-      >
+        <article>
         <section>
-            <h2>Selected Projects</h2>
+            <h2 className="title has-text-white has-text-centered">Selected Projects</h2>
             <div>
                 {
                     projs.map((project  => <Card name = {project.name} desc = {project.desc} gitLink = {project.gitLink} webLink = {project.webLink} screenShot = {project.screenShot}/> ))
