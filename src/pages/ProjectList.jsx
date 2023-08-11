@@ -3,7 +3,7 @@ import Lordpic from '../assets/lordofthepies.png'
 import ewtPic from '../assets/ENDWORLDTHIRST.png'
 import weaPic from '../assets/WeatherDash.png'
 import jatePic from '../assets/JATEphoto.png'
-import Card from './card'
+import Card from '../components/card'
 export default function projectList(){
     const projs = [
         //use this template for the selected projects. Put them in cards?
@@ -36,8 +36,6 @@ export default function projectList(){
             screenShot: jatePic,
         }
     ]
-//figure out how to use map to create projects? Or use a for loop to create cards for each project? 
-
     return (
         <article>
         <section>
