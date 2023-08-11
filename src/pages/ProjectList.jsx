@@ -4,6 +4,7 @@ import ewtPic from '../assets/ENDWORLDTHIRST.png'
 import weaPic from '../assets/WeatherDash.png'
 import jatePic from '../assets/JATEphoto.png'
 import Card from '../components/card'
+//how to get two cards per row? Use flex, or use a loop to move each card into a row? Or grid?
 export default function projectList(){
     const projs = [
         //use this template for the selected projects. Put them in cards?

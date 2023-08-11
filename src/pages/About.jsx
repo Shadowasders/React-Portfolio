@@ -1,13 +1,13 @@
 import React from "react";
 import proPic from '../assets/propic.png'
-
+//figure out how to resize photo & center text
 export default function AboutPanel() {
 return (
     <article>
          <div className="columns">
-        <section className="proheader column has-text-centered">
+        <section className="column has-text-centered">
             <h1 className="title has-text-white">About</h1>
-            <img className="propic" src={proPic} alt="A photo of me!"></img>
+            <img className="propic is-rounded" src={proPic} alt="A photo of me!"></img>
         </section>
         <section className="desc column has-text-white">
             <p className="mb-5">
