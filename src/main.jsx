@@ -5,7 +5,7 @@ import 'bulma/css/bulma.min.css'
 import About from "./pages/About.jsx";
 import Contact from "./pages/Contact.jsx"
 import ProjectList from './pages/ProjectList.jsx';
-// import Resume from './pages/Resume.jsx';
+import Resume from './pages/Resume.jsx';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 const router = createBrowserRouter([
   {
@@ -24,11 +24,11 @@ const router = createBrowserRouter([
         path: '/contact',
         element: <Contact />
       },
-      //resume path breaks site? Why??
-      // {
-      //   path: '/resume',
-      //   element: <Resume />
-      // },
+      // resume path breaks site? Why??
+      {
+        path: '/resume',
+        element: <Resume />
+      },
     ],
   },
 ]);
