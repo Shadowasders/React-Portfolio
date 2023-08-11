@@ -5,11 +5,8 @@ export default function AboutPanel() {
 return (
     <article>
          <div className="columns">
-        <section className="column has-text-centered">
-            <h1 className="title has-text-white">About</h1>
-            <img className="propic is-rounded" src={proPic} alt="A photo of me!"></img>
-        </section>
-        <section className="desc column has-text-white">
+        <section className="column has-text-centered has-text-white">
+            <h1 className="title has-text-white">About Me</h1>
             <p className="mb-5">
                 Hey! I'm Aubrey McKinney, welcome to my little slice of the internet! I'm a fullstack developer located in Philadelphia, PA. I love creating new things and bringing visions to life! Stick around and stay a while!
             </p>
@@ -19,6 +16,9 @@ return (
             <p>
                 Currently I'm enrolled in a Bootcamp at the University of Pennsylvania, working on a certificate in fullstack development. Throughout the many headaches it has brought I really love programming, and I look forward to the chance to turn your dreams, into reality. 
             </p>
+        </section>
+        <section className="desc column has-text-white">
+            <img className="propic is-rounded" src={proPic} alt="A photo of me!"></img>
         </section>
         </div>
     </article>

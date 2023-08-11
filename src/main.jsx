@@ -24,7 +24,6 @@ const router = createBrowserRouter([
         path: '/contact',
         element: <Contact />
       },
-      // resume path breaks site? Why??
       {
         path: '/resume',
         element: <Resume />
