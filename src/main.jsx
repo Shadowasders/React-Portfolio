@@ -6,7 +6,7 @@ import About from "./pages/About.jsx";
 import Contact from "./pages/Contact.jsx"
 import ProjectList from './pages/ProjectList.jsx';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-
+//resume router not working?
 const router = createBrowserRouter([
   {
     path: '/',
@@ -24,6 +24,10 @@ const router = createBrowserRouter([
         path: '/contact',
         element: <Contact />
       },
+      // {
+      //   path: '/resume',
+      //   element: <Resume />
+      // },
     ],
   },
 ]);

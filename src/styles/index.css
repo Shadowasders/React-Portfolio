@@ -7,13 +7,12 @@
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 a {
   font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
+  text-decoration: none;
 }
 
 body {
@@ -27,4 +26,8 @@ body {
   border-radius: 75%;
   min-height: 400px;
   min-width: 400px;
+}
+
+.headerbg {
+  background-image: url('../assets/headerBG.png');
 }

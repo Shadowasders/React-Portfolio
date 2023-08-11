@@ -4,10 +4,9 @@ import ewtPic from '../assets/ENDWORLDTHIRST.png'
 import weaPic from '../assets/WeatherDash.png'
 import jatePic from '../assets/JATEphoto.png'
 import Card from '../components/card'
-//how to get two cards per row? Use flex, or use a loop to move each card into a row? Or grid?
 export default function projectList(){
+
     const projs = [
-        //use this template for the selected projects. Put them in cards?
         {
             name: "End World Thirst",
             desc: "A simple web application for finding breweries near you!",
@@ -37,11 +36,17 @@ export default function projectList(){
             screenShot: jatePic,
         }
     ]
+    //grid implimented, make cards smaller? 
     return (
         <article>
         <section>
-            <h2 className="title has-text-white has-text-centered">Selected Projects</h2>
-            <div>
+            <h2 className="title has-text-white has-text-centered mt-4">Selected Projects</h2>
+            <div style={{
+                  display: 'grid',
+                  gridTemplateColumns: '1fr 1fr 1fr 1fr',
+                  padding: '8em 2em',
+                  gap: '1em'
+            }}>
                 {
                     projs.map((project  => <Card name = {project.name} desc = {project.desc} gitLink = {project.gitLink} webLink = {project.webLink} screenShot = {project.screenShot}/> ))
                 }
