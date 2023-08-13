@@ -1,5 +1,6 @@
 import React from 'react'
 //further updates once color scheme is decided
+//make button fullwidth ezpz
 const handleFormSubmit = (e) => {
   e.preventDefault();
   alert("Thank you for contacting me! I'll get back to you as soon as possible")

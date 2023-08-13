@@ -25,8 +25,8 @@ export default function Card(props) {
         <br />
         </div>
         <footer className="card-footer">
-            <a className='subtitle is-link' href={props.gitLink}>Github</a>
-            <a className="subtitle is-link"  href={props.webLink}>Livesite</a>
+            <a className='card-footer-item is-link' href={props.gitLink}>Github</a>
+            <a className="card-footer-item is-link"  href={props.webLink}>Livesite</a>
         </footer>
     </div>
     )

@@ -7,7 +7,7 @@
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 a {
@@ -23,11 +23,12 @@ body {
 }
 
 .propic {
-  border-radius: 75%;
-  min-height: 400px;
-  min-width: 400px;
+  border-radius: 50%;
+  height: 600px;
+  width: 600px;
 }
 
 .headerbg {
   background-image: url('../assets/headerBG.png');
 }
+

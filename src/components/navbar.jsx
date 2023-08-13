@@ -1,12 +1,12 @@
 import { Link } from 'react-router-dom'
-//figure out why hero isnt working? Rewrite enitre thing? need to be medium size
+import 'bulma/css/bulma.min.css'
 //figure out why link colors aren't changing, they should not be blue
 //impliment navbar burger, shouldnt be too hard same as LoTP See that and copy no biggie
 
 export default function Nav() {
   return (
-    <section className='hero is-large headerbg'>
-      <div className='hero-head'>
+    <section className='hero is-medium-with-navbar headerbg'>
+      <div className='hero-body'>
       <nav className='navbar'>
         <div id='' className='navbar-menu'>
           <div className='navbar-start'>

@@ -9,7 +9,7 @@ export default function projectList(){
     const projs = [
         {
             name: "End World Thirst",
-            desc: "A simple web application for finding breweries near you!",
+            desc: "A simple web application for finding and saving breweries near you!",
             gitLink: "https://github.com/myrojoylee/end-world-thirst",
             webLink: "https://myrojoylee.github.io/end-world-thirst/",
             screenShot: ewtPic
@@ -40,7 +40,7 @@ export default function projectList(){
     return (
         <article>
         <section>
-            <h2 className="title has-text-white has-text-centered mt-4">Selected Projects</h2>
+            <h2 className="title has-text-white has-text-centered mt-6">Selected Projects</h2>
             <div style={{
                   display: 'grid',
                   gridTemplateColumns: '1fr 1fr 1fr 1fr',
