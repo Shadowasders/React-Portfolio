@@ -6,7 +6,7 @@ return (
     <article>
          <div className="columns">
         <section className="column has-text-centered has-text-white">
-        <img className="propic is-rounded ml-4 mt-2" src={proPic} alt="A photo of me!"></img>
+        <img className="propic is-rounded mt-4" src={proPic} alt="A photo of me!"></img>
         </section>
         <section className="desc column has-text-white has-text-centered mr-2">
         <h1 className="title has-text-white mt-6">About Me</h1>
