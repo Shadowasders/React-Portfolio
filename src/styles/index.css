@@ -10,10 +10,6 @@
   /* overflow: hidden; */
 }
 
-a {
-  font-weight: 500;
-  text-decoration: none;
-}
 
 body {
   margin: 0;
@@ -33,3 +29,28 @@ body {
   background-image: url('../assets/headerBG.png');
 }
 
+.footer {
+  background-color: lightblue;
+  text-decoration: none;
+}
+
+.footimg {
+  width: 200px;
+  height: 200px;
+}
+
+.contact {
+  height: 70vh;
+}
+
+.about {
+  border-bottom: 1px solid lightblue;
+}
+
+.title {
+  font-family: 'Bitter', serif;
+}
+
+.foottext {
+  font-family: 'Bitter', serif;
+}

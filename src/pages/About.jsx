@@ -9,7 +9,7 @@ return (
         <img className="propic is-rounded mt-4" src={proPic} alt="A photo of me!"></img>
         </section>
         <section className="desc column has-text-white has-text-centered mr-2">
-        <h1 className="title has-text-white mt-6">About Me</h1>
+        <h1 className="title has-text-white mt-6 pb-1 about">About Me</h1>
             <p className="mb-5 mr-1">
                 Hey! I'm Aubrey McKinney, welcome to my little slice of the internet! I'm a fullstack developer located in Philadelphia, PA. I love creating new things and bringing visions to life! Stick around and stay a while!
             </p>

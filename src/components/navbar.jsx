@@ -9,8 +9,13 @@ export default function Nav() {
       <div className='hero-body'>
       <nav className='navbar'>
         <div id='' className='navbar-menu'>
-          <div className='navbar-start'>
-            <p className='navbar-item title has-text-white'>Aubrey McKinney</p>
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      </a>
+          <div id='navbar' className='navbar-start'>
+            <p className='navbar-item name title has-text-white'>Aubrey McKinney</p>
           </div>
         <div className='navbar-end'>
             <a className='navbar-item'><Link to="/">About</Link></a>

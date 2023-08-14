@@ -7,7 +7,7 @@ const handleFormSubmit = (e) => {
 }
 export default function Contact() {
   return (
-  <section className='columns is-centered'>
+  <section className='columns is-centered contact mt-3'>
     <div className='column is-half'>
       <h1 className='title has-text-centered has-text-white'>Contact Me!</h1>
       <form className='' onSubmit={handleFormSubmit}>
@@ -19,22 +19,22 @@ export default function Contact() {
         </div>
 
         <div className='field'>
-          <label className='label'>Email</label>
+          <label className='label has-text-white'>Email</label>
           <div className='control'>
             <input className='input' type='text' placeholder=''></input>
           </div>
         </div>
 
         <div className='field'>
-          <label className='label'>Message</label>
+          <label className='label has-text-white'>Message</label>
           <div className='control'>
             <textarea className='textarea' placeholder='What do ya need?'></textarea>
           </div>
         </div>
 
-        <div className='field is-grouped'>
-          <div className='control'>
-            <button className='button'>Submit!</button>
+        <div className='field is-grouped is-fullwidth'>
+          <div className='control is-fullwidth'>
+            <button className='button is-fullwidth'>Submit!</button>
           </div>
         </div>
       </form>
