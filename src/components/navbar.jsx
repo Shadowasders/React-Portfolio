@@ -26,7 +26,7 @@ export default function Nav() {
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
           </a>
-          <div className='navbar-menu' id='dtarg'>
+          <div className='navbar-menu navb' id='dtarg'>
             <div id='navbar' className='navbar-start'>
               <p className='navbar-item name title has-text-white'>Aubrey McKinney</p>
             </div>
