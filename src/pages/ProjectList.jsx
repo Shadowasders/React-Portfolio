@@ -8,28 +8,28 @@ import { useState } from "react"
 const projs = [
     {
         name: "End World Thirst",
-        desc: "A simple web application for finding and saving breweries near you using the Leaflet API",
+        desc: "A simple web application for finding and saving breweries. Technology used: HTML, CSS, JavaScript & API's",
         gitLink: "https://github.com/myrojoylee/end-world-thirst",
         webLink: "https://myrojoylee.github.io/end-world-thirst/",
         screenShot: ewtPic
     },
     {
         name: "Lord of the Pies",
-        desc: "A full-stack social blog, where users can post recpies, and other can interact with them",
+        desc: "A full-stack social blog, where users can post recpies, and other can interact with them. Technology used: HTML, CSS, Handlebars, MySQL, MVC, JavaScript",
         gitLink: "https://github.com/myrojoylee/Lord-of-the-Pies",
         webLink: "https://lord-of-the-pies-f3c957a9b4a8.herokuapp.com/",
         screenShot: Lordpic,
     },
     {
         name: "Weather App",
-        desc: "A functional weather application, used to see weather in a specified city, as well as a five day future broadcast",
+        desc: "A functional weather application, used to see weather in a specified city, as well as a five day future broadcast. Technology used: HTML, CSS, JavaScript, API's",
         gitLink: "https://github.com/Shadowasders/Weather-App",
         webLink: "https://shadowasders.github.io/Weather-App/",
         screenShot: weaPic,
     },
     {
         name: "Jate",
-        desc: "An AWE text editor, a downloadable app that allows one to take notes, and save them on loss of focus or refresh",
+        desc: "An AWE text editor, a downloadable app that allows one to take notes, and save them on loss of focus or refresh. Technology used: AWE, Webpack, Javascript.",
         gitLink: "https://github.com/Shadowasders/Text-editor",
         webLink: "https://floating-refuge-33497-e25e38aa42a3.herokuapp.com/",
         screenShot: jatePic,
@@ -51,12 +51,11 @@ export default function projectList() {
                 : prev - count
         );
     };
-    //grid implimented, make cards smaller? 
     return (
         <article>
             <section>
                 <h2 className="title has-text-white has-text-centered mt-6">Selected Projects</h2>
-                <button onClick={handleNextPage} className=" button is-fullwidth">Forward</button>
+                <button onClick={handleNextPage} className="button is-fullwidth abttext mt-3">Forward</button>
                 <div style={{
                     display: 'grid',
                     gridTemplateColumns: '1fr 1fr 1fr',
@@ -67,7 +66,7 @@ export default function projectList() {
                         projsToRender.map((project => <Card name={project.name} desc={project.desc} gitLink={project.gitLink} webLink={project.webLink} screenShot={project.screenShot} />))
                     }
                 </div>
-                <button onClick={handlePrevPage} className="button is-fullwidth">Back</button>
+                <button onClick={handlePrevPage} className="button is-fullwidth abttext mb-3">Back</button>
             </section>
         </article>
     )

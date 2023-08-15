@@ -20,13 +20,13 @@ export default function Card(props) {
         </div>
         </div>
         <div className="card-content">
-        <div className="content">{props.desc}
+        <div className="content abttext">{props.desc}
         </div>
         <br />
         </div>
         <footer className="card-footer">
-            <a className='card-footer-item is-link' href={props.gitLink}>Github</a>
-            <a className="card-footer-item is-link"  href={props.webLink}>Livesite</a>
+            <a className='card-footer-item is-link abttext' href={props.gitLink}>Github</a>
+            <a className="card-footer-item is-link abttext"  href={props.webLink}>Livesite</a>
         </footer>
     </div>
     )
