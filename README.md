@@ -1,6 +1,6 @@
 [![License MIT](https://img.shields.io/badge/license-MIT-green)](https://choosealicense.com/licenses/mit/)
 
-  # React ReadMe
+  # React Portfolio!
 
   ### Table of Contents 
   - [Description](#project-description)
@@ -9,6 +9,7 @@
   - [How to Contribute](#how-to-contribute)
   - [Testing](#testing)
   - [Contact](#contact)
+![reactresume](https://github.com/Shadowasders/React-Portfolio/assets/99014955/fd7ad8c7-5689-4542-9016-d4cedbe13400)
 
 
   ## Project Description
