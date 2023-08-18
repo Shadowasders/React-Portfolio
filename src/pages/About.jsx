@@ -16,8 +16,11 @@ return (
             <p className="mb-5 mr-1 pr-6 pl-6 abttext">
                 My life has been a journey, I grew up in boarding school on a farm in Lake Placid, NY. Where I fell in love with snowboarding and being outdoors. Then I got a BA in Musical Theatre from Temple University and performed around the east coast. Following Covid I moved from the arts and fell in love with Bartending, spending the last three years working in high volume bars and clubs around Philadelphia.
             </p>
+            <p className="mb-5 pr-6 pl-6 abttext">
+                While working, a coworker inspired me to start programming though his success in a bootcamp. I decided to take the plunge. I enrolled in the EDx bootcamp through the University of Pennsylvania, working on a certificate in fullstack development. Throughout the many headaches it has brought I found that my unique viewpoint in the arts gave me a leg up in designing applications and working in a collaborative enviroment. The process gave me a comprehensive understanding of Agile development, and functional understanding of the MERN stack, MVC, JavaScript, and working with, or creating an API. 
+            </p>
             <p className="pr-6 pl-6 abttext">
-                While working, a coworker inspired me to start programming though his success in a bootcamp. I decided to take the plunge. I enrolled in the EDx bootcamp through the University of Pennsylvania, working on a certificate in fullstack development. Throughout the many headaches it has brought I found that my unique viewpoint in the arts gave me a leg up in designing applications, and I can't wait to help you create yours! If you have any more questions, feel free to reach out through my contact form, or email me at <a href="mailto:aubreyasdersmckinney@gmail.com">Aubreyasdersmckinney@gmail.com!</a>
+                With my combined experience I believe I'd be a wonderful fit for any front end development situation! If you have any more questions, feel free to reach out through my contact form, or email me at <a href="mailto:aubreyasdersmckinney@gmail.com">Aubreyasdersmckinney@gmail.com!</a>
             </p>
         </section>
         </div>
