@@ -16,7 +16,7 @@
   After working for the last 5 months in programming, I decided it was time to recreate my portfolio with modern practices. So I used React to recreate a better portfolio
 
   ## Installation
-  There's no installation, just check the link in the description!
+  There's no installation, just check the link in the about section!
 
   ## Usage
   Check it out, I'm always open to feedback about my work, so if there's any code that isn't up to best practices please let me know!
