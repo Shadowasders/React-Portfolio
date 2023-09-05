@@ -3,6 +3,7 @@ import Lordpic from '../assets/lordofthepies.png'
 import ewtPic from '../assets/ENDWORLDTHIRST.png'
 import weaPic from '../assets/WeatherDash.png'
 import jatePic from '../assets/JATEphoto.png'
+import hivePic from '../assets/hive.png'
 import Card from '../components/card'
 import { useState } from "react"
 const projs = [
@@ -19,6 +20,13 @@ const projs = [
         gitLink: "https://github.com/myrojoylee/Lord-of-the-Pies",
         webLink: "https://lord-of-the-pies-f3c957a9b4a8.herokuapp.com/",
         screenShot: Lordpic,
+    },
+    {
+        name: "Hive",
+        desc: "A MERN stack videogame review application. Where users can create profiles, search games, save them, and write reviews on specific games for other users to see",
+        gitLink:"https://github.com/blickenderfer/hive",
+        webLink: "https://hive1-03d1291901c2.herokuapp.com/",
+        screenShot: hivePic
     },
     {
         name: "Weather App",
