@@ -23,7 +23,7 @@ const projs = [
     },
     {
         name: "Hive",
-        desc: "A MERN stack videogame review application. Where users can create profiles, search games, save them, and write reviews on specific games for other users to see",
+        desc: "A MERN stack videogame review application. Where users can create profiles, search games, save them, and write reviews. Technology used: MERN, GraphQl",
         gitLink:"https://github.com/blickenderfer/hive",
         webLink: "https://hive1-03d1291901c2.herokuapp.com/",
         screenShot: hivePic
